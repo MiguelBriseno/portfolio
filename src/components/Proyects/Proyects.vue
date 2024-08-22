@@ -25,18 +25,6 @@
                 </h3>
                 <p class="mt-5 line-clamp-8 text-sm leading-6 text-gray-600">{{ post.description }}</p>
               </div>
-              <div class="relative mt-6 flex items-center gap-x-4">
-                <img :src="post.author.imageUrl" alt="" class="h-10 w-10 rounded-full bg-gray-100" />
-                <div class="text-sm leading-6">
-                  <p class="font-semibold text-gray-900">
-                    <a :href="post.author.href">
-                      <span class="absolute inset-0" />
-                      {{ post.author.name }}
-                    </a>
-                  </p>
-                  <p class="text-gray-600">{{ post.author.role }}</p>
-                </div>
-              </div>
             </div>
           </article>
         </div>
@@ -56,14 +44,7 @@
             'https://i.postimg.cc/1RwywQHT/azul.jpg',
         date: 'Feb 13, 2024',
         datetime: '2024-02-13',
-        category: { title: 'Vue.JS | NEST.JS | Axios | Tailwind', href: 'https://vuejs.org/guide/introduction.html' },
-        author: {
-            name: 'Miguel Briseño',
-            role: 'Softcarmel / Co-Founder',
-            href: 'https://www.softcarmel.com',
-            imageUrl:
-            'https://i.postimg.cc/VvdFcFzh/perfil.png',
-        },
+        category: { title: 'Vue.JS | NEST.JS | Axios | Tailwind', href: 'https://vuejs.org/guide/introduction.html' }
     },
     {
       id: 2,
@@ -75,14 +56,7 @@
         'https://i.postimg.cc/1RVJYNQ4/oakland.jpg',
       date: 'Mar 16, 2021',
       datetime: '2021-03-16',
-      category: { title: 'Vue.JS | NodeJS | C# | Vuetify | Axios', href: 'https://vuejs.org/guide/introduction.html' },
-      author: {
-        name: 'Miguel Briseño',
-        role: 'Softcarmel / Co-Founder',
-        href: 'https://www.softcarmel.com',
-        imageUrl:
-          'https://i.postimg.cc/VvdFcFzh/perfil.png',
-      },
+      category: { title: 'Vue.JS | NodeJS | C# | Vuetify | Axios', href: 'https://vuejs.org/guide/introduction.html' }
     },
     {
         id: 3,
@@ -94,14 +68,7 @@
             'https://i.postimg.cc/q75PjYFh/soft.jpg',
         date: 'Dec 9, 2023',
         datetime: '2023-12-09',
-        category: { title: 'Vue.JS | Tailwind', href: 'https://vuejs.org/guide/introduction.html' },
-        author: {
-            name: 'Miguel Briseño',
-            role: 'Softcarmel / Co-Founder',
-            href: 'https://www.softcarmel.com',
-            imageUrl:
-            'https://i.postimg.cc/VvdFcFzh/perfil.png',
-        },
+        category: { title: 'Vue.JS | Tailwind', href: 'https://vuejs.org/guide/introduction.html' }
     },
     {
         id: 4,
@@ -113,14 +80,7 @@
             'https://i.postimg.cc/kXxw4Wjz/pokemon.jpg',
         date: 'April 22, 2024',
         datetime: '2024-04-22',
-        category: { title: 'Vue.JS | Vuetify | Axios', href: 'https://vuejs.org/guide/introduction.html' },
-        author: {
-            name: 'Miguel Briseño',
-            role: 'Softcarmel / Co-Founder',
-            href: 'https://www.softcarmel.com',
-            imageUrl:
-            'https://i.postimg.cc/VvdFcFzh/perfil.png',
-        },
+        category: { title: 'Vue.JS | Vuetify | Axios', href: 'https://vuejs.org/guide/introduction.html' }
     },
     {
         id: 5,
@@ -132,14 +92,7 @@
             'https://i.postimg.cc/qqyzxWk4/OIP.jpg',
         date: 'Feb 19, 2024',
         datetime: '2024-02-19',
-        category: { title: 'Vue.JS | Vuetify', href: 'https://vuejs.org/guide/introduction.html' },
-        author: {
-            name: 'Miguel Briseño',
-            role: 'Softcarmel / Co-Founder',
-            href: 'https://www.softcarmel.com',
-            imageUrl:
-            'https://i.postimg.cc/VvdFcFzh/perfil.png',
-        },
+        category: { title: 'Vue.JS | Vuetify', href: 'https://vuejs.org/guide/introduction.html' }
     },
     {
         id: 6,
@@ -151,14 +104,7 @@
             'https://i.postimg.cc/qM1FP6RK/jary.jpg',
         date: 'Jun 28, 2021',
         datetime: '2021-06-28',
-        category: { title: 'HTML | CSS | JS | Mailchimp', href: 'https://www.w3schools.com/' },
-        author: {
-            name: 'Miguel Briseño',
-            role: 'Softcarmel / Co-Founder',
-            href: 'https://www.softcarmel.com',
-            imageUrl:
-            'https://i.postimg.cc/VvdFcFzh/perfil.png',
-        },
+        category: { title: 'HTML | CSS | JS | Mailchimp', href: 'https://www.w3schools.com/' }
     },
   ]
   </script>

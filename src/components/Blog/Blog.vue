@@ -51,14 +51,14 @@
     {
       id: 1,
       title: 'From Crisis to Recovery: My Experience as an IT Manager During a Hack',
-      href: '#',
+      href: 'https://dly.to/JoBwgMXtwgG',
       description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
+        'Experiencing a ransomware attack is every IT professionals worst nightmare. In this blog post, I’ll share the gripping story of how we faced BlackHunt, a notorious ransomware, and the steps we took to recover and secure our operations. From the initial breach to our comprehensive recovery strategy, learn how we turned a crisis into a lesson for future resilience.',
       imageUrl:
         'https://i.postimg.cc/1zq7Sbqh/hacker.jpg',
       date: 'August 22, 2024',
       datetime: '2024-08-22',
-      category: { title: 'Ransomware', href: 'https://www.youtube.com/watch?v=tOFzERkOg1s&t=186s' },
+      category: { title: 'Ransomware', href: 'https://dly.to/JoBwgMXtwgG' },
       author: {
         name: 'Miguel Briseño',
         role: 'Softcarmel / Co-Founder',
