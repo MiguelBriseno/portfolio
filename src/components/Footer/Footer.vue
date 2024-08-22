@@ -25,6 +25,7 @@
       { name: 'Me', href: '#main' },
       { name: 'Blog', href: '#blog' },
       { name: 'Projects', href: '#projects' },
+      { name: 'Download CV', href: 'https://drive.google.com/file/d/1oz5-zIJi7ZVKAnw-WortU5tBU57kI8pW/view?usp=sharing' }
     ],
     social: [
       {
