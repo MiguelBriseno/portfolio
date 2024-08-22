@@ -56,7 +56,7 @@
             'https://i.postimg.cc/1RwywQHT/azul.jpg',
         date: 'Feb 13, 2024',
         datetime: '2024-02-13',
-        category: { title: 'Vue.JS | NEST.JS | Tailwind', href: 'https://www.w3schools.com/' },
+        category: { title: 'Vue.JS | NEST.JS | Tailwind', href: 'https://vuejs.org/guide/introduction.html' },
         author: {
             name: 'Miguel Briseño',
             role: 'Co-Founder / CEO',
